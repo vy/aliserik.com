@@ -3,10 +3,120 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Ali Şerik">
-  	<meta name="email" content="a.serik@live.nl">
-  	<title>Ali Şerik</title>
+  	<meta name="email" content="info@aliserik.com">
+  	<title>Ali Şerik / Boeken (Kitaplar)</title>
+  	<link rel="stylesheet" href="/styles.css">
+  	<style type="text/css">
+
+		.book {
+			margin-top: 3rem;
+			display: flex;
+		}
+
+		.book .cover {
+			width: 30%;
+			margin-right: 1rem;
+		}
+
+		.book .cover img {
+			width: 100%;
+		}
+
+		.book span, .book a {
+			display: block;
+			color: #999999;
+			font-size: 1rem;
+			border-bottom: none;
+		}
+
+		.book .title {
+			text-decoration: none;
+			border-bottom: 1px dotted #000;
+			font-size: 2rem;
+		}
+
+		.book .publisher {
+			font-size: 1.5rem;
+		}
+
+		.book .year {
+			font-size: 1rem;
+		}
+
+  	</style>
 </head>
 <body>
-Coming soon...
+
+<div id="sidebar"></div>
+
+<div id="midbar" style="background: url('/img/ali-serik-by-hans-erkelens.jpg') no-repeat top left; background-size: cover; background-position: center;">
+	<div class="photographer">Hans Erkelens</div>
+</div>
+
+<div id="content">
+
+	<nav id="menu">
+		<ul>
+			<li class="active"><span class="nl">Boeken</span><span class="tr">Kitaplar</span></li>
+			<li class="inactive"><a href="/auteur/"><span class="nl">Auteur</span><span class="tr">Hakkında</span></a></li>
+		</ul>
+	</nav>
+
+	<div class="book">
+		<a class="cover" href="/boeken/2018-de-stem-die-baart/"><img src="/boeken/2018-de-stem-die-baart/cover.jpg"/></a>
+		<div>
+			<a class="title" href="/boeken/2018-de-stem-die-baart/">De Stem Die Baart</a>
+			<span class="publisher">Lipari</span>
+			<span class="year">2018</span>
+		</div>
+	</div>
+
+	<div class="book">
+		<a class="cover" href="/boeken/2015-hartslagen-van-de-mus/"><img src="/boeken/2015-hartslagen-van-de-mus/cover.jpg"/></a>
+		<div>
+			<a class="title" href="/boeken/2015-hartslagen-van-de-mus/">Hartslagen van de mus</a>
+			<span class="publisher">Lecturium</span>
+			<span class="year">2015</span>
+		</div>
+	</div>
+
+	<div class="book">
+		<a class="cover" href="/boeken/2011-doorbloeiend-heimwee/"><img src="/boeken/2011-doorbloeiend-heimwee/cover.jpg"/></a>
+		<div>
+			<a class="title" href="/boeken/2011-doorbloeiend-heimwee/">Doorbloeiend Heimwee</a>
+			<span class="publisher">Lecturium</span>
+			<span class="year">2011</span>
+		</div>
+	</div>
+
+	<div class="book">
+		<a class="cover" href="/boeken/2007-mutlulugun-gulumsemesi/"><img src="/boeken/2007-mutlulugun-gulumsemesi/cover.jpg"/></a>
+		<div>
+			<a class="title" href="/boeken/2007-mutlulugun-gulumsemesi/">Mutluluğun Gülümsemesi</a>
+			<span class="publisher">Broy</span>
+			<span class="year">2007</span>
+		</div>
+	</div>
+
+	<div class="book">
+		<a class="cover" href="/boeken/2006-sevdanin-yirtilan-yeri/"><img src="/boeken/2006-sevdanin-yirtilan-yeri/cover.jpg"/></a>
+		<div>
+			<a class="title" href="/boeken/2006-sevdanin-yirtilan-yeri/">Sevdanın Yırtılan Yeri</a>
+			<span class="publisher">Broy</span>
+			<span class="year">2006</span>
+		</div>
+	</div>
+
+	<div class="book">
+		<a class="cover" href="/boeken/2005-yalan-kuyusu/"><img src="/boeken/2005-yalan-kuyusu/cover.jpg"/></a>
+		<div>
+			<a class="title" href="/boeken/2005-yalan-kuyusu/">Yalan Kuyusu</a>
+			<span class="publisher">Broy</span>
+			<span class="year">2005</span>
+		</div>
+	</div>
+
+</div>
+
 </body>
 </html>

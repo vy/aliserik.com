@@ -1,0 +1,123 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 1px dotted #000;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	margin: 0;
+}
+
+#sidebar {
+	width: 4%;
+	height: 100vh;
+	flex-shrink: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url("/img/ali-serik-vtext.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#midbar {
+	width: 36%;
+	height: 100vh;
+	flex-shrink: 0;
+	position: fixed;
+	top: 0;
+	left: 4%;
+}
+
+#midbar .photographer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 1rem;
+	font-weight: 800;
+	color: #fff;
+	padding: 1rem;
+}
+
+#content {
+	flex-grow: 1;
+	padding: 4rem;
+	position: absolute;
+	left: 40%;
+	width: 60%;
+}
+
+#menu {
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#menu li {
+	line-height: 4rem;
+	margin-right: 1.5rem;
+}
+
+#menu li:before {
+	content: "/";
+}
+
+#menu .nl {
+	color: #999999;
+}
+
+#menu .tr {
+	color: #e1e1e1;
+	margin-left: 0;
+}
+
+#menu .active {
+	border-top: 16px solid #efefef;
+}
+
+#menu .inactive {
+	border-top: 16px solid #fff;
+}
+
+#menu a {
+	border-bottom: none;
+}
+
+h1 {
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+h1 .nl {
+	color: #999999;
+}
+
+h1 .tr {
+	color: #e1e1e1;
+	margin-left: 0;
+}
+
+h1:before {
+	content: "/";
+}
