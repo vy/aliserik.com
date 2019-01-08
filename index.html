@@ -4,19 +4,61 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Ali Şerik">
   	<meta name="email" content="info@aliserik.com">
-  	<title>Ali Şerik</title>
+  	<title>Ali Şerik / Boeken (Kitaplar)</title>
   	<link rel="stylesheet" href="/styles.css">
+  	<style type="text/css">
+
+		.book {
+			margin-top: 3rem;
+			display: flex;
+		}
+
+		.book .cover {
+			width: 30%;
+			margin-right: 1rem;
+		}
+
+		.book .cover img {
+			width: 100%;
+		}
+
+		.book span, .book a {
+			display: block;
+			color: #999999;
+			font-size: 1rem;
+			border-bottom: none;
+		}
+
+		.book .title {
+			text-decoration: none;
+			border-bottom: 1px dotted #000;
+			font-size: 2rem;
+		}
+
+		.book .publisher {
+			font-size: 1.5rem;
+		}
+
+		.book .year {
+			font-size: 1rem;
+		}
+
+  	</style>
 </head>
 <body>
 
-<div id="sidebar" style="background: url('/img/ali-serik-by-hans-erkelens.jpg') no-repeat top left; background-size: cover"></div>
+<div id="sidebar"></div>
+
+<div id="midbar" style="background: url('/img/ali-serik-by-hans-erkelens.jpg') no-repeat top left; background-size: cover; background-position: center;">
+	<div class="photographer">Hans Erkelens</div>
+</div>
 
 <div id="content">
 
 	<nav id="menu">
 		<ul>
 			<li class="active"><span class="nl">Boeken</span><span class="tr">Kitaplar</span></li>
-			<li><a href="/auteur/"><span class="nl">Auteur</span><span class="tr">Hakkında</span></a></li>
+			<li class="inactive"><a href="/auteur/"><span class="nl">Auteur</span><span class="tr">Hakkında</span></a></li>
 		</ul>
 	</nav>
 
