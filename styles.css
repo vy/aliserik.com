@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  margin: 0;
+}
+
+#sidebar {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+#content {
+  flex-grow: 1;
+  padding: 4rem;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("OpenSans-Regular.ttf");
+}
+
+#menu {
+	font-size: 2rem;
+	font-weight: 800;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#menu ul {
+	margin: 0;
+  	padding: 0;
+	list-style-type: none;
+  	display: flex;
+}
+
+#menu li {
+	margin-right: 1.5rem;
+}
+
+#menu li:before {
+  content: "/";
+}
+
+#menu .nl {
+	color: #999999;
+}
+
+#menu .tr {
+	color: #e1e1e1;
+	margin-left: 0;
+}
+
+#menu .active {
+	border-bottom: 1px dotted #000;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+.book {
+	margin-top: 4rem;
+	display: flex;
+}
+
+.book .cover {
+	width: 30%;
+	margin-right: 1rem;
+}
+
+.book .cover img {
+	width: 100%;
+}
+
+.book span, .book a {
+	display: block;
+	color: #999999;
+	font-size: 1rem;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book .title {
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+	font-size: 2rem;
+}
+
+.book .publisher {
+	font-size: 1.5rem;
+}
+
+.book .year {
+	font-size: 1rem;
+}
