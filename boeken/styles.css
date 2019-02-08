@@ -1,14 +1,40 @@
+.book {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.book span, .book a {
+    display: block;
+    color: #999999;
+    font-size: 1rem;
+    border-bottom: none;
+}
+
+.book .title {
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+    font-size: 2rem;
+}
+
+.book .publisher {
+    font-size: 1.5rem;
+}
+
+.book .year {
+    font-size: 1rem;
+}
+
 h1:before {
-	content: "";
+    content: "";
 }
 
 .poem {
-	margin-top: 3rem;
-	line-height: 2rem;
-	font-size: 1.5rem;
+    margin-top: 3rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
 
 .poem .note {
-	font-size: 1rem;
-	font-style: oblique;
+    font-size: 1rem;
+    font-style: oblique;
 }
