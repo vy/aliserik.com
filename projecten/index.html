@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/styles.css">
     <style type="text/css">
 
+        h1 {
+            font-size: 3rem;
+            color: crimson;
+        }
+
         #year-2019 h2:before {
             content: "/2019/";
             color: #e1e1e1;
@@ -58,7 +63,33 @@
             color: #e1e1e1;
         }
 
+        #year-2007 h2:before {
+            content: "/2007/";
+            color: #e1e1e1;
+        }
+
+        #year-2006 h2:before {
+            content: "/2006/";
+            color: #e1e1e1;
+        }
+
+        #year-2005 h2:before {
+            content: "/2005/";
+            color: #e1e1e1;
+        }
+
+        #year-2001 h2:before {
+            content: "/2001/";
+            color: #e1e1e1;
+        }
+
+        #year-1999 h2:before {
+            content: "/1999/";
+            color: #e1e1e1;
+        }
+
         .year {
+            display: none;
             font-size: 1.5rem;
         }
 
@@ -67,11 +98,6 @@
             border: 1px solid #e1e1e1;
             max-width: 600px;
             max-height: 400px;
-        }
-
-        .year h1 {
-            font-size: 3rem;
-            color: crimson;
         }
 
         .year .project h2 {
@@ -97,6 +123,7 @@
         }
 
     </style>
+    <script src="/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 
@@ -116,9 +143,9 @@
         </ul>
     </nav>
 
-    <div class="year" id="year-2019">
+    <h1>2019 <span id="toggle-2019">▼</span></h1>
 
-        <h1>2019</h1>
+    <div class="year" id="year-2019">
 
         <div class="project">
 
@@ -550,9 +577,9 @@
 
     </div>
 
-    <div class="year" id="year-2018">
+    <h1>2018 <span id="toggle-2018">▼</span></h1>
 
-        <h1>2018</h1>
+    <div class="year" id="year-2018">
 
         <div class="project">
 
@@ -1157,9 +1184,9 @@
 
     </div>
 
-    <div class="year" id="year-2017">
+    <h1>2017 <span id="toggle-2017">▼</span></h1>
 
-        <h1>2017</h1>
+    <div class="year" id="year-2017">
 
         <div class="proje">
 
@@ -1360,9 +1387,9 @@
 
     </div>
 
-    <div class="year" id="year-2016">
+    <h1>2016 <span id="toggle-2016">▼</span></h1>
 
-        <h1>2016</h1>
+    <div class="year" id="year-2016">
 
         <div class="project">
 
@@ -1433,9 +1460,9 @@
 
     </div>
 
-    <div class="year" id="year-2015">
+    <h1>2015 <span id="toggle-2015">▼</span></h1>
 
-        <h1>2015</h1>
+    <div class="year" id="year-2015">
 
         <div class="project">
 
@@ -1519,9 +1546,9 @@
 
     </div>
 
-    <div class="year" id="year-2013">
+    <h1>2013 <span id="toggle-2013">▼</span></h1>
 
-        <h1>2013</h1>
+    <div class="year" id="year-2013">
 
         <div class="project">
 
@@ -1756,9 +1783,9 @@
 
     </div>
 
-    <div class="year" id="year-2012">
+    <h1>2012 <span id="toggle-2012">▼</span></h1>
 
-        <h1>2012</h1>
+    <div class="year" id="year-2012">
 
         <div class="project">
 
@@ -2254,9 +2281,9 @@
 
     </div>
 
-    <div class="year" id="year-2011">
+    <h1>2011 <span id="toggle-2011">▼</span></h1>
 
-        <h1>2011</h1>
+    <div class="year" id="year-2011">
 
         <div class="project">
 
@@ -2307,9 +2334,9 @@
 
     </div>
 
-    <div class="year" id="year-2009">
+    <h1>2009 <span id="toggle-2009">▼</span></h1>
 
-        <h1>2009</h1>
+    <div class="year" id="year-2009">
 
         <div class="project">
 
@@ -2401,9 +2428,9 @@
 
     </div>
 
-    <div class="year" id="year-2008">
+    <h1>2008 <span id="toggle-2008">▼</span></h1>
 
-        <h1>2008</h1>
+    <div class="year" id="year-2008">
 
         <div class="project">
 
@@ -2733,6 +2760,583 @@
         </div>
 
     </div>
+
+    <h1>2007 <span id="toggle-2007">▼</span></h1>
+
+    <div class="year" id="year-2007">
+
+        <div class="project">
+
+            <h2>Şiirde tarihin izleri</h2>
+
+            <p>(Söyleşen: İlat Yeni̇doğan)</p>
+
+            <p>(Eski Broy dergisi)</p>
+
+            <p><img src="/projecten/2007/siirde-tarihin-izleri.jpg"/></p>
+
+            <p class="interview-question">
+                Şiir ortamına ilk yapıtınız Yalan Kuyusu’yla<sup>1</sup> güçlü
+                bir katılımı örneklediniz. Daha ilk şiirlerinizdeki şu dizeler
+                etkileyiciydi: Zamanı geldiğinde yaşlılık ses çıkartamadan /
+                dağılacak kentin son sokaklarında ( s. 7, Korku). Hemen
+                ardından, şiirinizin itici gücünü vurgulayan bir son dize: Ve
+                hep peşimizde olacak tarih. Yaşamınızda ve genel olarak, insan
+                yaşamında tarih bu kadar belirgin mi?
+            </p>
+
+            <p>
+                Kendi yaşamıma baktığımda tarih sürekli bir gölge gibi peşimden
+                koştu. Bunu daha geniş açıklamak için biraz kendimden söz etmem
+                gerekecek… Yedi yaşındayken bir işçi ailesi çocuğu olarak
+                Hollanda’ya geldim. Çocuk yaşta gurbetin acı tadı damağıma
+                bulaştı. O yaşta çevremdekilere, doğduğum toprakları öğrendiğim
+                yeni dilde anlatmak zorunda kaldım. Altı yıl sonra 1975’te dört
+                yıllığına geri döndüm memlekete. Bu sefer de Hollanda’yı
+                anlattım meraklı insanlara. 1979’dan itibaren hiç ayrılmadım
+                Hollanda’dan. Bu git gel arasında iki ayrı dünya insanlarının
+                sevinç ve kederlerine genç yaşta ortak oldum; onları anlamaya
+                çalıştım. Hep merak ettim, hangi tarihsel koşullar altında
+                toplumların oluştuğunu.
+            </p>
+
+            <p>
+                Bugün Avrupalı gençlerin, bunun içinde Avrupa’da yaşayan
+                Türkiyeli gençler de var, tarih bilgileri büyük bir erozyona
+                uğramıştır. Yalnız şu anın plan ve projelerini yaşamaktalar.
+                İkinci Dünya Savaşı’nın ne zaman başlayıp bittiğini bilenlerin
+                sayıları sürekli azalmakta. Ülkesinin geçmişini bilmeyen gençlik
+                daha tez ırkçı ve yabancı düşmanlığına sarılıyor. Hollanda’da
+                çok kültürlü bir toplum yaratmanın yolları tıkanmış, tüm devlet
+                kurumları ve medya tek tip Batı insanını yaratmanın peşinde.
+                Dünyanın neresinde olursak olalım, tarihini eksik veya yanlış
+                öğrenenler, zamanı geldiğinde bunun bedelini ödemek zorunda
+                kalacaklar. İnsan kendisinin ve ülkesinin tarihini, hatta
+                dünyanın tarihini bilmediği an attığı her adım eksik ve yarım
+                kalacaktır.
+            </p>
+
+            <p class="interview-question">
+                Çok sıcak, içten ve yalın söyleyişler buluyorum sık sık…
+                Bakarken yurdum unutulan sokaklarına / bir kahve fincanın
+                içinde, sığındım eski bir dosta( s.12, Tohum) dizesinde yurt
+                özlemini ve yurdun yadırganışını dile getiriyorsunuz.
+                Yurtseverlik ve ulusallık olgusunu çok tartışıldığı şu sıralarda
+                bu dizenin sizdeki fışkırmasını anlatır mısınız?
+            </p>
+
+            <p>
+                Ben aslında yurtsuz bir insanim, ömrümün büyük bölümünü
+                Hollanda’da geçirdim. Öyle görünüyor ki buna daha nice yıllar
+                eklenecek. Yaşadığım toplumdaki kimi insanların bana hep,
+                “Yurdumda ne işin var, ülkene artık geri dön!”dercesine
+                baktıklarını gördüm. Tatilde doğduğum topraklara geldiğimde beni
+                bir Almancı olarak değerlendirildim; nedense Türkiye’de de
+                yabancıyım. Her insan doğduğu, yetiştiği, yaşlandığı topraklara
+                vatanım,  yurdum deme hakkına sahip. Çağdaş insanın sınırları
+                zaman ilerledikçe azalmakta… Dünyaya bakan gözler arasında
+                binlerce kilometre olmasına rağmen, aynı dünya sorunları çıkıyor
+                karşımıza, gittikçe aynı düşünce ve duyguları paylaşıyoruz.
+                Bazen kendi kendime soruyorum: Yurtsuz insan toprağa nasıl sahip
+                çıkar?.. Bana gelince: İçimde Anadolu’ya hep derin özlem
+                taşıdım.
+            </p>
+
+            <p class="interview-question">
+                Pek çok kez, aynı dizede bireyselliği olduğu kadar toplumsal
+                çıkmazı da vurguluyorsunuz: Hangi soruya cevap bulabilirim ki /
+                cevaplar sarılmışken susmaya (s. 15, Oda) örneğinde olduğu gibi…
+                Yine şu dizeler, Yalan Kuyusu’ndaki yüzlerce benzeri arasından
+                aynı örtüşmeyi yansıttığı düşüncesiyle seçtiklerim.Yeleğimin
+                içinde her gün biri intihar eder (s. 17, Zaman)…, Kim örebilir
+                işçilerin korkusundan grevi (s. 20, Kedi)…, Kar resim gibi
+                titremeden durur / bulutun ve şarkının arasında (s. 22, Cevap)…,
+                Sabaha karşı / dünya kendi eşkıyalığı ile uyandı / Bir horoz
+                öttü sabahtan önce karakolun önünde (s. 30, Günlerde)…,
+                Okunmadan yakılacak mektupları kim yazar (s. 36, Mektup)…, Şimdi
+                hangi kelimelerle ve nasıl öpmeliyim konuşan insanı /
+                dudaklarımı yakmadan (s. 50, Kelime İşçisi)…, Ve unutmak ufak
+                adımlarıyla takılır peşimize (s. 56, Unutmak)… Soru şu: Bireyin
+                açmazları toplumsal olanla aynı sarmalda mı yer alır hep? 
+            </p>
+
+            <p>
+                Bireyin kendi kabuğuna çekilip tüm sorunlarını çözeceğine
+                inanmıyorum. Birey kendi mücadelesini verdiği sırada toplumsal
+                mücadelede oluşan zincire de katılmalı, başka insanlarla el
+                tutuşmalı. Önümüzdeki engellerin, açmazların, nerede olursak
+                olalım, görüyoruz ki birbiriyle organik bağ var. Önemli olan bu
+                organik bağın gücünü, onu doğuran koşulları ve engelleri
+                saptamak. Hollanda işçi sınıfı ile Türkiye işçi sınıfı arasında
+                birçok organik bağ var. Bir örnek: Küresel ısınma toplumda
+                herkesin kapısını çalan bireysel sorun olmuştur. Gözlerimizi ve
+                kulaklarımızı tıkarsak, sorunlarımızı sırf bugün için çözmeyi
+                düşünür de yarınları umursamazsak geçici bireysel çözüm belki
+                mümkün olabilir. Fakat bireyin kalıcı mutluluğu insanın yanı
+                başkasının ve de herkesin mutluluğundan geçer. Huzur içinde
+                yaşamamız ancak etrafımızdaki insanlar huzur içinde yaşadığında
+                gerçekleşir… Birey, sorunlarını çözebilmek için uçurumları
+                aşarak tek basına tek başına en büyük dağın doruğuna
+                tırmanabilir, ama aşağıya indiğinde hiçbir şeyin değişmediğini
+                görmekten daha acı ne vardır?
+            </p>
+
+            <p class="interview-question">
+                kinci kitabınızda<sup>2</sup> şiirsel gövdenin içerik ve biçim yönünde
+                genişlemesini izliyoruz. Bu arada Seyyit Nezir, Sevdanın
+                Yırtılan Yeri kitabınızı değerlendirirken “yanlışından kaçmayan
+                şair” diyor sizin için… Bu niteleme hakkında siz ne
+                düşünüyorsunuz?
+            </p>
+
+            <p>
+                Aslında hakkımda konuşmayı pek sevmen, bunu başkalarına
+                bırakmayı yeğlerim. Ama özeleştirilerden de kaçmam. Her geçen
+                gün yeni şeyleri öğrenmeye özen gösteririm, tabii işçiliğim ve
+                sıkıntılarım buna izin verirse. Hayatımda herkes gibi
+                yanlışlıklarım da oldu, yaptıklarıma gülüp geçmedim, gizlemedim
+                de. Bu yanlışlıkları hep yanımda taşıdım, sürekli onlardan bir
+                şeyler öğrenmeye çalıştım. Şu kanıya vardım: Yalnızca doğruları
+                yaptığını sananlar ve bir de onları alkışlayanlar varsa, bir gün
+                alkışların büyüsüne kapılıp doğrunun yolunda engel olup
+                çıkarlar… Dünyaya bakan penceremi sürekli açık tuttum, ama ne
+                zaman kapatmak gerektiğini de öğrendim. Fırtına koptuğunda
+                pencereyi ara sıra açık tutmanın da gerektiğini, hatta güneşli
+                bir havada kısa bir süre için kapatmanın bir sakıncası
+                olmadığını öğrendim. İnsan ancak son nefesinde verdikten sonra
+                hatalarından kurtulur… Buna karşın yeni yanlışlıklarımı
+                engellemeye çalışmaktayım, sokakta koşan bir çocuk gibi.
+            </p>
+
+            <p class="interview-question">
+                Şairin işi imge avcılığıdır, okuyucuysa dize avlar. Altını
+                çizdiğim dizelerden birkaçını daha anımsatarak dize işçiliğine
+                gelmek istiyorum. Kendi öfkem çıktın karşıma, aklın gömüldüğü
+                toprağı çapaladı (s. 27, Aynı Sevincin Çayı İçilir)…, Sana
+                hiçbir türkü söylemedi mutsuzluğum (s. 65, Kalkmaz Ara
+                Sokaktan)…, çürüyerek beden hiçbir hatıra geride yalnızlık
+                çekmeyecek (s. 82, Yeryüzü Güzelliklere Hazır)…, Bir imgeyi
+                yakaladıktan sonra mı şiiri kuruyorsunuz, şiire çalışıyorken
+                önünüze çıkan imgeyle mi yöneltiyorsunuz.
+            </p>
+
+            <p>
+                İmgeyi yakaladıktan sonra şiiri kuruyorum. İlk imge, şiirin
+                yolunu ve kaderini belirler. Hangi duraklara, yolculuklara,
+                acılara, hüzünlere uğrayacağını bilir. Sonra önüme başka imgeler
+                çıkar, ilk kez dizginlenen bir at gibi. Bir terzi gibi biçip
+                ölçerim, kesip kısaltırım, yeniden kesip uzatırım şiirin
+                kollarını. Bir Bakmışsın olmamış, yeniden sökersin dikişleri.
+                İlk imge binanın temeli gibi çatının ağırlığını ve genişliğini
+                bilir. İmge avcılığına çıktığımda sırt çantamı çiçeklerle,
+                kuşlarla, sokağımla, evimle, sevdiklerimle hatta sevmediklerimle
+                doldururum. Silahım kimi zaman sevdadır, özlemdir; kimi zaman da
+                acıdır kederdir.
+            </p>
+
+            <p class="interview-question">
+                Günümüzde görsellik her türlü iletişim için vazgeçilmez oldu.
+                Siz de şiirinize görsel olanaklarla destekleme gereksinimini
+                duymuş olmalısınız. Nitekim Gülağa Kazankaya’nın fotoğraflarıyla
+                birlikte okura sunulan Mutluluğun Gülümsemesi<sup>3</sup> üçüncü
+                Türkçe şiir kitabınız oldu, okurla buluştu. Şiirsel imgenin,
+                şiir sözdiziminin görsel dayanışmaya gereksinmesi var mı? Yoksa
+                bu aynı zamanda bir karşıçıkış mı? Uzaktan uzağa, Nazım’ın sen
+                mutluluğun resmini yapabilir misin abidin dizlerine de gönderme
+                var gibi… Peki niye fotoğraf?
+            </p>
+
+            <p>
+                Önce fotoğraflar vardı sonra onlardan esinlenerek şiirler
+                döküldü kâğıda. Fotoğraflar olmasaydı Mutluluğun Gülümsemesi
+                yazılmayacaktı. Şiiri yazmakta bir tıkanıklık anlamında değil,
+                şiirin görsel dayanışmaya aslında ihtiyacı yok. Bu bir sanatsal
+                deneme girişimi. Değişik sanat dallarının birleşimlerini de bir
+                zenginlik olarak görüyorum. Burada Gülağa Kazankaya’nın
+                yakaladığı görüntüleri kendi dünyama özümseyerek bende yarattığı
+                imgelerle yeniden canlandırdım. Her fotoğraf, yaşamımda kesitler
+                gibi bir bir kendileri için yer buldu.Fotoğrafa baktıkça beni
+                anlatan, dünyamı canlandıran resimler olduğunu anladım. O cansız
+                görüntüler şiirde yeniden canlandılar. Fotoğrafları şiir
+                kitabında yer almasaydı, sanırım okura fotoğrafla şiirin
+                evliliğini somut olarak gösteremezdim. Şiirler fotoğrafın
+                karşısında sorgulanamazdı. Fotoğrafla olan çalışma başta kendi
+                sınırlarımı da genişletmek için güzel bir deneyim oldu. 
+            </p>
+
+            <p>
+                Başarılı olup olmadığıma şiir severler karar vermeli.
+            </p>
+
+            <p class="interview-question">
+                Herhangi bir güne ilişkin izlemler, zaman ve yaşam kırıntıları
+                yer alıyor kitaba adını veren şiirde:  dinlenir yeleğinde
+                birinin tebessümü / karbon kağıdı ufacık öfkesini bırakır
+                süngerin üstüne (s. 9, Mutluluğun Gülümsemesi) Ne diyorsunuz,
+                sözcüklerle resim çizme çabası mı?  Çocukluğumdaki arkadaşları
+                tanımadım, gözlerinde yüzümü görünce (s. 11, Adları Eskisinden
+                Daha İnce)…, Tatil ve hafta sonunda gizlice o manzaraları
+                çıkartırdım ceketimin iç cebinden ( s. 25, Öfke de Bir Gün
+                Göçer)…, Yitirme korkusuyla omurgamı asıyorum hücrenin tavanına
+                (s. 93, Telörgünün Ortasında) vb yüzlerce dizenin hep tek satıra
+                sığmayan uzunluğu her dizede bir resim tamamlama çabasının mı
+                bir sonucu?
+            </p>
+
+            <p>
+                Bu uzun dizeler aslında resmi tamamlama çabası değil, bu uzun
+                dizeler kendimi tamamlama çabası. Sokakta yürürsünüz ve
+                tanımadık bir yerden gelen nefis koku sizi alıp götürür unutulan
+                zamanlarda yenilen mükemmel bir yemeğin anısına. Ya da küçük bir
+                oyuncak görürsünüz, çocukken öylesi bir oyuncakla oynadığınızı
+                anımsarsınız ve birkaç saniyeliğine geri dönersiniz o güzel
+                günlere.
+            </p>
+
+            <p>
+                Fotoğraflara baktıkça çocukluk arkadaşlarımı hatırladım, artık
+                hiçbirini tanımıyorum. Ya da dere kenarında çay
+                kaynatmalarımızı, belki o dere çoktan kuruyup gitti. Böylece
+                daha pek çok örneği sıralayabilirim, ama buna gerek yok sanırım.
+                Her okur kendisini arasın şiirlerin ve fotoğrafların içinde…
+                Fotoğraflar benim dünyamdaki gökkuşağını, bulutları,
+                eziklikleri, yoksullukları, yalnızlıkları tekrar uyandırdı.
+                Dünyamdan çıkıp şiirleri yazmaya çalıştım, çünkü şiir yazıldıkça
+                kendimi buldum dizelerin içinde. Şiirler yazıldıkça beni terk
+                ettiler.
+            </p>
+
+            <p class="interview-question">
+                Sonuçta şöyle bir yargıya varabilir miyiz?: Şiiriniz
+                Türkiye’deki sıcak şiir tartışmalarının dışında duruyor, ama
+                onlardan büsbütün kopuk da değil. Bir tür teğet çiziyor. Bu
+                sonucun yaşamınızla bağlantılı olduğunu da söylenebilir mi?
+            </p>
+
+            <p>
+                Bu sonucun elbette yaşamımla bağlantısı var. Hollanda’da yaşıyor
+                orada çalışıyorum. Buradaki politik gündem Türkiye’dekinden
+                farklı: yabancı düşmanlığı, ırkçılık, asimilasyon, kaybolan
+                sosyal haklar… Türkiye’deki tartışmaları yakından izleme
+                olanağına her zaman sahip değilim. Aynı zaman Hollandaca şiir
+                kitaplarım da var. Buna karşın ekmek kavgası zamanımın çoğunu
+                süpürüp götürmekte. Şu an şiir tartışmalarının dışındayım; ama
+                tartışmaları izlemiyorum anlamına da gelmez bu.
+            </p>
+
+            <p>
+                Hollanda’da yapılması gereken ilk iş, şiir tartışmasını bir an
+                önce başlatmak, yaşatmak, can vermek olmalı. Bugün Hollanda’da
+                şiir konuşulmadan, tartışmadan yazılmakta, şiir kitapları
+                basılmakta. Bir eleştirmenimiz bile yok. 
+            </p>
+
+            <p>
+                <sup>1</sup> Yalan Kuyusu, Ali Şerik, Broy Yayınları, Mart 2005
+                <sup>2</sup> Sevdamın Yırtılan Yeri, Ali Şerik, Broy Yayınları Mayıs 2006
+                <sup>3</sup> Mutluluğun Gülümsemesi, Ali Şerik, Broy Yayınları 2007
+            </p>
+
+        </div>
+
+        <div class="project">
+
+            <h2>Gedicht van Ali Şerik is opgenomen in de verzamenbundel van Vereniging Taalpodium</h2>
+
+            <p><img src="/projecten/2007/tien-totaal.jpg"/></p>
+
+            <div class="poem">
+
+                <h3>NIET VOLDAAN</h3>
+
+                <p>
+                    Ik trek eerst mijn jas uit<br/>
+                    dan mijn trui, hemd, sokken en mijn onderbroek<br/>
+                    dit is niet genoeg, ik moet verder gaan<br/>
+                    Scheer mijn zwarte haren op mijn hoofd tot onder de wortels<br/>
+                    Vragen breken open, antwoorden vallen weg<br/>
+                    Zwijgzaam kijkt mijn moeder naar achteren<br/>
+                    Scheer mijn oksels, borst, schaamhaar<br/>
+                    zelfs mijn ballen vergeet ik niet<br/>
+                    Mijn ogen zijn donkerbruin<br/>
+                    met mijn wijsvinger haal ik ze er één voor één uit<br/>
+                    Ben niet tevreden, niet voldaan met het aanspoelen<br/>
+                    luister naar mijn stem, ik bespeur een dialect<br/>
+                    snij het weg met een stiletto<br/>
+                    Nog steeds val ik uit de grazende kudde<br/>
+                    nog steeds vallen de sterren over de oever<br/>
+                    nog seeds trilt mijn hand in de lucht<br/>
+                    Mijn getinte hand verraadt mijn gehucht<br/>
+                    langzaam doe ik mijn lichtbruine huid uit<br/>
+                    loop als een volbloed in mijn schaduw<br/>
+                    Nu lachen ze mij weer uit met hun blauwe ogen<br/>
+                    omdat ik weer zo anders ben
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h1>2006 <span id="toggle-2006">▼</span></h1>
+
+    <div class="year" id="year-2006">
+
+        <div class="project">
+
+            <h2>Columns Amersfoortse Courant 2001-2006</h2>
+
+            <p>Twee voorbeelden van zijn columns</p>
+
+            <p><img src="/projecten/2006/amersfoortse-courant-1.jpg"/></p>
+
+            <p><img src="/projecten/2006/amersfoortse-courant-2.jpg"/></p>
+
+            <p><img src="/projecten/2006/amersfoortse-courant-3.jpg"/></p>
+
+        </div>
+
+    </div>
+
+    <h1>2005 <span id="toggle-2005">▼</span></h1>
+
+    <div class="year" id="year-2005">
+
+        <div class="project">
+
+            <h2>Kunst vaarroute Amersfoort</h2>
+
+            <p>
+                Ter gelegenheid van de Kunstvaarroute schreef Ali Serik een
+                gedicht bij een beeldend kunstwerk van Margarethe Broers. Het
+                zelfde, voor ander kunstwerken werd gedaan door dichters Marlies
+                Somers, Sieger Baljon, Gerard Beentjes, Catharina Blaauwendraad,
+                Eva Cox, Henjo Hekman, Paul Janssen, Fethi Killi, Joz Knoop,
+                Wichhard Maassen, Elly Mense, Fred Papenhove, Fred Penninga,
+                Patty Scholten, <b>Ali Şerik</b>, Wim van Til, Mieke Vermeulen
+                en Guido van der Wolk.  Diana Ozon,  De andere kunstenaars
+                waren: Ron Jagers,Ger de Joode, Michiel Jansen, Adriana
+                Nichting, Lucia Fransen, Nora Baetens, Lourise Hessen, Mirjam
+                Wind, Barbara Blasing, Lia Koster, Anna van Suchtelen, Cornelia
+                Nauta, Theo van der Hoeven, Jolanda Meulendijks, Krijnie Beyen,
+                Corrie van der Vendel, Ellen Faber.
+            </p>
+
+            <p><img src="/projecten/2005/margarethe-broeres.jpg"/></p>
+
+            <p>Kunstwerk van Margarethe Broeres</p>
+
+            <div class="poem">
+
+                <h3>Vestiging</h3>
+
+                <p>
+                    Op de onzichtbare waterlijn<br/>
+                    waar de hemel begint<br/>
+                    en waar het water eindigt<br/>
+                    hangt mijn schaduw<br/>
+                    als een hemelblauwe spiegel<br/>
+                    vogels vliegen doorheen met mijn twijfels
+                </p>
+
+                <p>
+                    Op de sluimerende waterlijn<br/>
+                    waar het water begint<br/>
+                    en waar de hemel eindigt<br/>
+                    hangt mijn schaduw<br/>
+                    dansend zonder nat te worden<br/>
+                    de vissen bestormen mijn vesting
+                </p>
+
+                <p>
+                    Op de verborgen waterlijn<br/>
+                    waar het verlangen begint<br/>
+                    en waar de schoonheid van angst eindigt<br/>
+                    hangen mijn torens met draken<br/>
+                    tussen hemel en water branden mijn laatste kaarsen<br/>
+                    veroverd door de gulzige ogen van de kijker
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="project">
+
+            <h2>Gedicht van Ali Şerik is opgenomen in de verzamenbundel van Vereniging Taalpodium</h2>
+
+            <p><img src="/projecten/2005/spiegels-en-kralen.jpg"/></p>
+
+            <p>Gedicht van Ali Şerik is opgenomen in de verzamenbundel van Vereniging Taalpodium.</p>
+
+            <div class="poem">
+
+                <h3>DIE DAG</h3>
+
+                <p>
+                    een zwarte zangeres op het podium<br/>
+                    met haar stem<br/>
+                    buigt nederig voor haar publiek<br/>
+                    het publiek, buigt terug<br/>
+                    een staande ovatie
+                </p>
+
+                <p>
+                    wat een mooie foto zal dit zijn<br/>
+                    in het album van de eeuw
+                </p>
+
+                <p>
+                    maar de fotograaf<br/>
+                    heeft het te druk op het slagveld<br/>
+                    met klaagliederen van moeders
+                </p>
+
+                <p>
+                    zodoende zal er geen foto zijn van deze avond<br/>
+                    de zangeres zal uiteindelijk sterven<br/>
+                    het publiek<br/>
+                    voor haar en na haar<br/>
+                    haar volgen
+                </p>
+
+                <p>
+                    alleen het applaus<br/>
+                    zal men terug kunnen vinden in de verre toekomst<br/>
+                    als men deze dag opgraaft
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h1>2001 <span id="toggle-2001">▼</span></h1>
+
+    <div class="year" id="year-2001">
+
+        <div class="project">
+
+            <h2>Kleuren uit 2000</h2>
+
+            <p>Project naar aanleiding van foto’s zijn gedichten geschreven</p>
+
+            <p><img src="/projecten/2001/gulaga-kazankaya.jpg"/></p>
+
+            <p>(Foto’s: Gülağa Kazankaya)</p>
+
+            <div class="poem">
+
+                <h3>Vrijheid</h3>
+
+                <p>
+                    Vrijheid heeft geen recept,<br/>
+                    zo nodig kun je het veroveren,<br/>
+                    soms gaat het gepaard met geweld,<br/>
+                    en nooit met een eenvoudige glimlach.
+                </p>
+
+                <p>
+                    Vrijheid kun je niet bezitten,<br/>
+                    je kunt het wel verder geven,<br/>
+                    greep heb je er niet op,<br/>
+                    toch is het te voelen als liefde.
+                </p>
+
+                <p>
+                    Vrijheid is soms een mank paard,<br/>
+                    in sommige landen strafbare lectuur, of,<br/>
+                    zingen in je eigen verboden taal in een donkere cel,<br/>
+                    vrijheid is het territorium van het grote gevoel.
+                </p>
+
+                <p>
+                    Vrijheid is in het bos lopen in bikini,<br/>
+                    zonnebaden in je dagelijkse kleren,<br/>
+                    de schreeuw van de sterren in je stem horen,<br/>
+                    vechten voor je cultuur en die van je voorgeslacht omverwerpen.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h1>1999 <span id="toggle-1999">▼</span></h1>
+
+    <div class="year" id="year-1999">
+
+        <div class="project">
+
+            <h2>De regenboog</h2>
+
+            <p>
+                In een periode van bijna één jaar interviewde Ali Şerik 78
+                mensen van 19 verschillende nationaliteiten. Een aantal van de
+                interviews werd omgezet in gedichten.
+            </p>
+
+            <p><img src="/projecten/1999/de-regenboog.jpg"/></p>
+
+            <div class="poem">
+
+                <h3>Twee werelden in een plastic tas</h3>
+
+                <p>
+                    Snel meid, schooltijd,<br/>
+                    doe je hoofddoek om,<br/>
+                    trek je lange jas aan,<br/>
+                    pak de plastic tas,<br/>
+                    waar is je schooltas,<br/>
+                    je etui met je lippenstift,<br/>
+                    snel, de trein vertrekt,<br/>
+                    kijk niet te veel naar hoe je loopt,<br/>
+                    instappen,<br/>
+                    net op tijd,<br/>
+                    nu naar de wc,<br/>
+                    deze is bezet,<br/>
+                    snel naar een andere,<br/>
+                    de tijd dringt,<br/>
+                    er in,<br/>
+                    hoofddoek af,<br/>
+                    jas uit,<br/>
+                    plastic tas open,<br/>
+                    waar is je lippenstift,<br/>
+                    je mascara,<br/>
+                    shit,<br/>
+                    snel je trui in je broek,<br/>
+                    buik inhouden,<br/>
+                    je borsten vooruit,<br/>
+                    uitstappen,<br/>
+                    en naar school,<br/>
+                    tot vanavond.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        for (const year of ["2019", "2018", "2017", "2016", "2015", "2013", "2012", "2011", "2009", "2008", "2007", "2006", "2005", "2001", "1999"]) {
+            const toggleSelector = "#toggle-" + year;
+            const yearSelector = "#year-" + year;
+            $(toggleSelector).click(function () {
+                $(yearSelector).slideToggle(0, function () {
+                    const content = $(toggleSelector).text();
+                    if (content === "▼") {
+                        $(toggleSelector).text("▲");
+                    } else {
+                        $(toggleSelector).text("▼");
+                    }
+                });
+            });
+        }
+    </script>
 
 </div>
 
